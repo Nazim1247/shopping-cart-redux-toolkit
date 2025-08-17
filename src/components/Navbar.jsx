@@ -3,8 +3,8 @@ import { Link } from 'react-router';
 
 const Navbar = () => {
     return (
-        <div>
-            <div className="navbar bg-base-100">
+        <div className='bg-base-100 shadow'>
+            <div className="navbar max-w-6xl mx-auto">
   <div className="flex-1">
     <Link to={'/'} className="text-2xl font-bold">Shopping Cart</Link>
   </div>
