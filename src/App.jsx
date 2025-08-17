@@ -1,16 +1,17 @@
 
 import { Outlet } from 'react-router'
 import './App.css'
+import Navbar from './components/Navbar'
 
 function App() {
 
   return (
-    <> 
-    <nav className='max-w-6xl mx-auto'>Navbar</nav>
-    <main className='max-w-6xl mx-auto'>
+    <div className='max-w-6xl mx-auto'> 
+    <Navbar />
+    <main>
       <Outlet/>
     </main>
-    </>
+    </div>
   )
 }
 
