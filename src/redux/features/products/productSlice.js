@@ -6,7 +6,7 @@ const initialState = [
         name: 'shirt',
         category: 'te shirt',
         price: 100,
-        image: 'https://www.daraz.com.bd/products/-i376122202.html?spm=a2a0e.searchlistcategory.list.9.426717f1CNui8Z',
+        image: 'https://mensworld.com.bd/wp-content/uploads/2023/09/FSF-1170.jpg',
         date: '17-08-2025'
     },
     {
@@ -14,7 +14,7 @@ const initialState = [
         name: 'shirt',
         category: 'te shirt',
         price: 100,
-        image: 'https://www.daraz.com.bd/products/-i376122202.html?spm=a2a0e.searchlistcategory.list.9.426717f1CNui8Z',
+        image: 'https://mensworld.com.bd/wp-content/uploads/2023/09/FSF-1170.jpg',
         date: '17-08-2025'
     },
     {
@@ -22,7 +22,7 @@ const initialState = [
         name: 'shirt',
         category: 'te shirt',
         price: 100,
-        image: 'https://www.daraz.com.bd/products/-i376122202.html?spm=a2a0e.searchlistcategory.list.9.426717f1CNui8Z',
+        image: 'https://mensworld.com.bd/wp-content/uploads/2023/09/FSF-1170.jpg',
         date: '17-08-2025'
     },
 ]
