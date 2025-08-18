@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router'
 import Home from './pages/home/Home.jsx'
 import { Provider } from 'react-redux'
 import store from './redux/store.js'
+import CartPage from './pages/carts/CartPage.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,7 +16,7 @@ createRoot(document.getElementById('root')).render(
       <Route element={<App/>}>
       <Route path="/" element={<Home/>} />
       <Route path="/products" element={<div>Products Page</div>} />
-      <Route path="/cart" element={<div>Cart Page</div>} />
+      <Route path="/cart" element={<CartPage/>} />
       </Route>
     </Routes>
   </BrowserRouter>
